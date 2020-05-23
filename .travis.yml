@@ -1,0 +1,5 @@
+os: mac
+
+script:
+  - chmod u+x mac-install.sh
+  - bash mac-install.sh
