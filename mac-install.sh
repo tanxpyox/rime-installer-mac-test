@@ -5,7 +5,7 @@
 
 RIMEDIR=~/Library/Rime/
 
-sudo installer -pkg ./Squirrel.pkg
+sudo installer -verbose -pkg ./Squirrel.pkg -target /
 
 # check for user lib
 if [ ! -d ${RIMEDIR} ]; then
